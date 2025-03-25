@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Diagnóstico - Refeito/Corrigido</title>
+
+    <script src="./gestor.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Preencha os dados do aluno:</h2><hr>
+    </header>
+
+    <main>
+        <form id="formAluno" action="./servidor/mostraResultado.php" method="post">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" required />
+
+            <label for="nota1">Nota 1: </label>
+            <input type="number" name="nota1" id="nota1" min="0" max="10" step="0.1" required />
+
+            <label for="nota2">Nota 2: </label>
+            <input type="number" name="nota2" id="nota2" min="0" max="10" step="0.01" required />
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </main>
+    <hr>
+
+    <section id="resultado"></section>
+
+    <footer>
+        <span id="erro" style="color: red;"></span>
+    </footer>
+</body>
+</html>
