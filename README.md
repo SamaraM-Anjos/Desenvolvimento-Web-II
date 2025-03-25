@@ -1,2 +1,9 @@
-# Desenvolvimento-Web-III
-Repositório para as práticas das aulas de Desenvolvimento Web III
+PHP - Repositório de aulas
+Esse repositório irá conter todas as aulas e atividades de PHP do ano de 2025.
+
+Feito e preenchido com os documentos da aluna Samara Matias.
+    <?php
+        echo 'Hello, World!';
+    ?>
+
+    <?= '👽 Xablau! 👽' ?>
