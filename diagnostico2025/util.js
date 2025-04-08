@@ -9,7 +9,7 @@ function geraOpcoes (metodo, dados = null) {
     return opcoes;
 }
 
-function trataResposta (resp) {
+async function trataResposta (resp) {
     if (resp.status === 404)
         throw new Error ("Página não encontrada");
     if (resp.status >= 500) 

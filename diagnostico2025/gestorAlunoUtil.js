@@ -1,4 +1,4 @@
-function montarResultado (elementoPai, aluno, exibirComoTabela) {
+async function montarResultado (elementoPai, aluno, exibirComoTabela) {
     console.log (elementoPai);
     elementoPai.innerHTML = "";
     const cabecalho = document.createElement('h2');
