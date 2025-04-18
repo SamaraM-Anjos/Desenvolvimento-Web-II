@@ -19,4 +19,4 @@ const realizarRequisicao = async () => {
     }
 };
 
-export {realizarRequisicao};
+export { realizarRequisicao };
